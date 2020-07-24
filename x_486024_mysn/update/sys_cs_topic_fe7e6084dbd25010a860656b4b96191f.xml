@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <cb_topic_id display_value="View Open MySN Records">957e6c44dbd25010a860656b4b96192d</cb_topic_id>
+        <definition>{"id":"957e6c44dbd25010a860656b4b96192d","name":"View Open MySN Records","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"View Open MySN Records","applicability":"true","category":"","key_phrases":["View Open MySN Records","MySN Request","Need something"],"variables":[{"name":"__segment_trigger_af8b8a18bb354c2eb452c8a61821beb9_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_f27e6084e9d250101d75e9532dd6f61f","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_727e6084a1d250108df6ff4e395f251f","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_b27e60843bd25010df8eaad90308841f","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_44ba461a370c4f35b94bbe16acabf852","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_4bf9095785d84e5bb3f2f2f47504967f","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_af8b8a18bb354c2eb452c8a61821beb9_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_f27e6084e9d250101d75e9532dd6f61f\");vaInputs.initialize(\"__silent_StartGoal_4bf9095785d84e5bb3f2f2f47504967f\");vaInputs.initialize(\"__silent_TerminateGoal_44ba461a370c4f35b94bbe16acabf852\");vaInputs.initialize(\"__silent_Decision_RootDecision_727e6084a1d250108df6ff4e395f251f\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_b27e60843bd25010df8eaad90308841f\");null;","fields":[{"name":"__silent_Decision_RootDecision_727e6084a1d250108df6ff4e395f251f","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_727e6084a1d250108df6ff4e395f251f\";vaInputs.__silent_Decision_RootDecision_727e6084a1d250108df6ff4e395f251f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_727e6084a1d250108df6ff4e395f251f\";vaInputs.RootDecisionBranch_f27e6084e9d250101d75e9532dd6f61f=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_b27e60843bd25010df8eaad90308841f","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_727e6084a1d250108df6ff4e395f251f\" &amp;&amp; ((vaInputs.RootDecisionBranch_f27e6084e9d250101d75e9532dd6f61f.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_b27e60843bd25010df8eaad90308841f___RootDecisionBranch_b27e60843bd25010df8eaad90308841f\";vaInputs.__silent_Branch_RootDecisionBranch_b27e60843bd25010df8eaad90308841f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_b27e60843bd25010df8eaad90308841f___RootDecisionBranch_b27e60843bd25010df8eaad90308841f\";null;"},{"name":"__silent_StartGoal_4bf9095785d84e5bb3f2f2f47504967f","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_b27e60843bd25010df8eaad90308841f___RootDecisionBranch_b27e60843bd25010df8eaad90308841f\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___4bf9095785d84e5bb3f2f2f47504967f\";vaInputs.__silent_StartGoal_4bf9095785d84e5bb3f2f2f47504967f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___4bf9095785d84e5bb3f2f2f47504967f\";null;"},{"name":"__silent_TerminateGoal_44ba461a370c4f35b94bbe16acabf852","applicable":"vaVars.previous_graph_node==\"Start___4bf9095785d84e5bb3f2f2f47504967f\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___44ba461a370c4f35b94bbe16acabf852\";vaInputs.__silent_TerminateGoal_44ba461a370c4f35b94bbe16acabf852=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___44ba461a370c4f35b94bbe16acabf852\";vaVars.__segment_trigger_af8b8a18bb354c2eb452c8a61821beb9_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"615ca804dbd25010a860656b4b961952","nlu_provider":"","nlu_model":"","nlu_intent":"","score":0.0,"visible":true,"sys_scope":"2bc78040db525010a860656b4b961902","sys_domain":"global","title":"View Open MySN Records","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category display_value="Virtual Agent topics for the MySN Virtual Agent Conversations application">615ca804dbd25010a860656b4b961952</design_category>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>View Open MySN Records MySN Request Need something</key_phrases>
+        <last_published_on>2020-07-24 06:53:57</last_published_on>
+        <library>false</library>
+        <library_usage/>
+        <metaphone>F NT SM0 MSN RKST RKRT APN</metaphone>
+        <name>View Open MySN Records</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 06:53:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fe7e6084dbd25010a860656b4b96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Open MySN Records</sys_name>
+        <sys_package display_value="MySN" source="x_486024_mysn">2bc78040db525010a860656b4b961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySN">2bc78040db525010a860656b4b961902</sys_scope>
+        <sys_update_name>sys_cs_topic_fe7e6084dbd25010a860656b4b96191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 06:53:57</sys_updated_on>
+        <title>View Open MySN Records</title>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=fe7e6084dbd25010a860656b4b96191f"/>
+</record_update>

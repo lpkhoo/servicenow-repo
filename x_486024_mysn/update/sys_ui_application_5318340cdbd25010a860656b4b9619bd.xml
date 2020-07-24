@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>MySN</name>
+        <order/>
+        <roles>x_486024_mysn.mysn_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 07:36:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5318340cdbd25010a860656b4b9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MySN</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySN" source="x_486024_mysn">2bc78040db525010a860656b4b961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySN">2bc78040db525010a860656b4b961902</sys_scope>
+        <sys_update_name>sys_ui_application_5318340cdbd25010a860656b4b9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 07:36:03</sys_updated_on>
+    </sys_ui_application>
+</record_update>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Log" section_id="ff3e8d88db165010a860656b4b961921" sys_domain="global" table="x_486024_mysn_mysn" version="3" view="User">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-24 09:12:45</sys_created_on>
+            <sys_id>733e8d88db165010a860656b4b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_486024_mysn_mysn" sys_domain="global" view="b73e8d88db165010a860656b4b96191d">ff3e8d88db165010a860656b4b961921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-24 09:12:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-24 09:12:45</sys_created_on>
+            <sys_id>f33e8d88db165010a860656b4b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_486024_mysn_mysn" sys_domain="global" view="b73e8d88db165010a860656b4b96191d">ff3e8d88db165010a860656b4b961921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-24 09:12:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-24 09:12:45</sys_created_on>
+            <sys_id>773e8d88db165010a860656b4b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Log" display_value="Log" name="x_486024_mysn_mysn" sys_domain="global" view="b73e8d88db165010a860656b4b96191d">ff3e8d88db165010a860656b4b961921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-24 09:12:45</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Log</caption>
+            <header>false</header>
+            <name>x_486024_mysn_mysn</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-24 09:12:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff3e8d88db165010a860656b4b961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySN" source="x_486024_mysn">2bc78040db525010a860656b4b961902</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySN">2bc78040db525010a860656b4b961902</sys_scope>
+            <sys_update_name>sys_ui_section_ff3e8d88db165010a860656b4b961921</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-24 09:12:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="User" name="User">b73e8d88db165010a860656b4b96191d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MySN">2bc78040db525010a860656b4b961902</application>
+        <file_path/>
+        <instance_id>e30bc136db58b34052dd2f17d49619d7</instance_id>
+        <instance_name>dev76847</instance_name>
+        <name>sys_ui_section_ff3e8d88db165010a860656b4b961921</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Log" section_id="ff3e8d88db165010a860656b4b961921" sys_domain="global" table="x_486024_mysn_mysn" version="3" view="User"><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-24 09:12:45</sys_created_on><sys_id>733e8d88db165010a860656b4b96196a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Log" display_value="Log" name="x_486024_mysn_mysn" sys_domain="global" view="b73e8d88db165010a860656b4b96191d">ff3e8d88db165010a860656b4b961921</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-24 09:12:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-24 09:12:45</sys_created_on><sys_id>f33e8d88db165010a860656b4b96196a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Log" display_value="Log" name="x_486024_mysn_mysn" sys_domain="global" view="b73e8d88db165010a860656b4b96191d">ff3e8d88db165010a860656b4b961921</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-24 09:12:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-24 09:12:45</sys_created_on><sys_id>773e8d88db165010a860656b4b96196a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Log" display_value="Log" name="x_486024_mysn_mysn" sys_domain="global" view="b73e8d88db165010a860656b4b96191d">ff3e8d88db165010a860656b4b961921</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-24 09:12:45</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Log</caption><header>false</header><name>x_486024_mysn_mysn</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-24 09:12:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ff3e8d88db165010a860656b4b961921</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Log</sys_name><sys_overrides/><sys_package display_value="MySN" source="x_486024_mysn">2bc78040db525010a860656b4b961902</sys_package><sys_policy/><sys_scope display_value="MySN">2bc78040db525010a860656b4b961902</sys_scope><sys_update_name>sys_ui_section_ff3e8d88db165010a860656b4b961921</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-24 09:12:44</sys_updated_on><sys_user/><title>false</title><view display_value="User" name="User">b73e8d88db165010a860656b4b96191d</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1696234951</payload_hash>
+        <record_name>MySN</record_name>
+        <reverted_from/>
+        <source>8398c880db525010a860656b4b96192d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 09:12:45</sys_created_on>
+        <sys_id>333e8d88db165010a860656b4b96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1738018a34c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 09:12:45</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>bb3e8d888f165010e1309a29ca7f896b</update_guid>
+        <update_guid_history>bb3e8d888f165010e1309a29ca7f896b:1696234951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 09:16:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>21088ebdc9c54a909eece3e1fa11a640</sys_id>
+        <sys_metadata>ff3e8d88db165010a860656b4b961921</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="MySN" source="x_486024_mysn">2bc78040db525010a860656b4b961902</sys_package>
+        <sys_parent display_value="MySN">7787fcc8dbd25010a860656b4b961911</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MySN">2bc78040db525010a860656b4b961902</sys_scope>
+        <sys_scope_delete display_value="">4835311a7e6e45bda8f97ad62a069eb9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ff3e8d88db165010a860656b4b961921</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ff3e8d88db165010a860656b4b961921">333e8d88db165010a860656b4b96196c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 09:16:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

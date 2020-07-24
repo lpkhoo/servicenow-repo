@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__6cb0744496d2501011d32d73ce9ad32d">20b07444dbd25010a860656b4b96192f</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"c540391fd7a447598e41745f703b6e46","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"c540391fd7a447598e41745f703b6e46"}],"goals":[{"name":"primary","trigger_id":"c540391fd7a447598e41745f703b6e46","nodes":[{"type":"StartGoal","goal_id":"a9747cf713bb41128cbc28f448821b00","greeting_msg":{"type":"String","mode":"string","value":" I can help you find and update MySN records for a type of"},"id":"54c35a2cabc84a0bae132a727eea6b71","name":"Start"},{"type":"TerminateGoal","goal_id":"a9747cf713bb41128cbc28f448821b00","confirmation_msg":{"type":"String","mode":"string","value":"Ask again when you need to update other MySN records."},"id":"2026c72815ab4d08b25924f0a3b1aecb","name":"End"},{"type":"ChoiceInputPrompt","expression_mode":"simple","id":"fc7312aaec4145febb1b131151cf38fa","name":"MySN Type","goal_id":"a9747cf713bb41128cbc28f448821b00","applicability":{"type":"Applicability","mode":"script","value":"true"},"variable_id":"f0a7e7c041d44dbe801a4879fb794b9b","message":{"type":"String","mode":"string","value":"Which type of MySN record would you like to view?\r"},"optional":false,"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":false}},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"Your selection : {{vaInputs.mysn_type}}"},"id":"e8a48ec73d5b4dfa9dce46b6f7986abb","name":"Confirm MySN Type","goal_id":"a9747cf713bb41128cbc28f448821b00","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"54c35a2cabc84a0bae132a727eea6b71","target_node_id":"fc7312aaec4145febb1b131151cf38fa","id":"0fb650cac4cb49d28a0110635be6fded"},{"type":"Edge","source_node_id":"fc7312aaec4145febb1b131151cf38fa","target_node_id":"e8a48ec73d5b4dfa9dce46b6f7986abb","id":"713b8e486e67475a809c4d118f7930a5"},{"type":"Edge","source_node_id":"e8a48ec73d5b4dfa9dce46b6f7986abb","target_node_id":"2026c72815ab4d08b25924f0a3b1aecb","id":"425366c80a814522be631ef208e3d0c4"}],"id":"a9747cf713bb41128cbc28f448821b00"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user"},{"type":"Choice","choices":[{"name":"Legal","element":"legal"},{"name":"Facilities","element":"facilities"},{"name":"Human Resources","element":"human resources"}],"id":"f0a7e7c041d44dbe801a4879fb794b9b","name":"mysn_type"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"2bc78040db525010a860656b4b961902","domain":"global","id":"90eea084dbd25010a860656b4b9619dc","name":"_PRVW__6cb0744496d2501011d32d73ce9ad32d","key_phrases":["Update MySN Records","need something","MySN Request"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"615ca804dbd25010a860656b4b961952","library":false}</design_definition>
+        <design_topic_id>90eea084dbd25010a860656b4b9619dc</design_topic_id>
+        <name>_PRVW__6cb0744496d2501011d32d73ce9ad32d</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 07:03:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>28b07444dbd25010a860656b4b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="MySN" source="x_486024_mysn">2bc78040db525010a860656b4b961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySN">2bc78040db525010a860656b4b961902</sys_scope>
+        <sys_update_name>sys_cb_design_topic_28b07444dbd25010a860656b4b961931</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 07:03:38</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

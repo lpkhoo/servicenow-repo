@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="View Open MySN Records">fe7e6084dbd25010a860656b4b96191f</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"af8b8a18bb354c2eb452c8a61821beb9","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"af8b8a18bb354c2eb452c8a61821beb9"}],"goals":[{"name":"primary","trigger_id":"af8b8a18bb354c2eb452c8a61821beb9","nodes":[{"type":"StartGoal","goal_id":"67e18ef895e04223a68ca57989276e4e","greeting_msg":{"type":"String","mode":"string","value":""},"id":"4bf9095785d84e5bb3f2f2f47504967f","name":"Start"},{"type":"TerminateGoal","goal_id":"67e18ef895e04223a68ca57989276e4e","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"44ba461a370c4f35b94bbe16acabf852","name":"End"}],"edges":[{"type":"Edge","source_node_id":"4bf9095785d84e5bb3f2f2f47504967f","target_node_id":"44ba461a370c4f35b94bbe16acabf852","id":"65ec93c312a04a1b9a60202ae2192720"}],"id":"67e18ef895e04223a68ca57989276e4e"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"2bc78040db525010a860656b4b961902","domain":"global","id":"957e6c44dbd25010a860656b4b96192d","name":"View Open MySN Records","key_phrases":["View Open MySN Records","MySN Request","Need something"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"615ca804dbd25010a860656b4b961952","library":false}</design_definition>
+        <design_topic_id>957e6c44dbd25010a860656b4b96192d</design_topic_id>
+        <name>View Open MySN Records</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 06:53:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fe7e6084dbd25010a860656b4b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="MySN" source="x_486024_mysn">2bc78040db525010a860656b4b961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySN">2bc78040db525010a860656b4b961902</sys_scope>
+        <sys_update_name>sys_cb_design_topic_fe7e6084dbd25010a860656b4b961923</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 06:53:58</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

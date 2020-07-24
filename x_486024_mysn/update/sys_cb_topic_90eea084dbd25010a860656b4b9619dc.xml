@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Virtual Agent topics for the MySN Virtual Agent Conversations application">615ca804dbd25010a860656b4b961952</category>
+        <connect_queue/>
+        <description>Update MySN Records</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "a9747cf713bb41128cbc28f448821b00": {
+      "id": "a9747cf713bb41128cbc28f448821b00",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "54c35a2cabc84a0bae132a727eea6b71": {
+          "id": "54c35a2cabc84a0bae132a727eea6b71",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": " I can help you find and update MySN records for a type of",
+            "mode": "simple"
+          }
+        },
+        "2026c72815ab4d08b25924f0a3b1aecb": {
+          "id": "2026c72815ab4d08b25924f0a3b1aecb",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": "Ask again when you need to update other MySN records.",
+            "mode": "simple"
+          }
+        },
+        "fc7312aaec4145febb1b131151cf38fa": {
+          "stepType": "ChoicePrompt",
+          "name": "MySN Type",
+          "prompt": {
+            "value": "Which type of MySN record would you like to view?\r",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "f0a7e7c041d44dbe801a4879fb794b9b",
+          "id": "fc7312aaec4145febb1b131151cf38fa",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "e8a48ec73d5b4dfa9dce46b6f7986abb": {
+          "id": "e8a48ec73d5b4dfa9dce46b6f7986abb",
+          "stepType": "TextOutput",
+          "name": "Confirm MySN Type",
+          "value": {
+            "value": "Your selection : {{vaInputs.mysn_type}}",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "0fb650cac4cb49d28a0110635be6fded",
+          "edgeType": "Edge",
+          "source": "54c35a2cabc84a0bae132a727eea6b71",
+          "target": "fc7312aaec4145febb1b131151cf38fa",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "713b8e486e67475a809c4d118f7930a5",
+          "edgeType": "Edge",
+          "source": "fc7312aaec4145febb1b131151cf38fa",
+          "target": "e8a48ec73d5b4dfa9dce46b6f7986abb",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "425366c80a814522be631ef208e3d0c4",
+          "edgeType": "Edge",
+          "source": "e8a48ec73d5b4dfa9dce46b6f7986abb",
+          "target": "2026c72815ab4d08b25924f0a3b1aecb",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "f0a7e7c041d44dbe801a4879fb794b9b": {
+      "id": "f0a7e7c041d44dbe801a4879fb794b9b",
+      "name": "mysn_type",
+      "label": "MySN Type",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Legal",
+          "value": "legal"
+        },
+        {
+          "label": "Facilities",
+          "value": "facilities",
+          "checked": true
+        },
+        {
+          "label": "Human Resources",
+          "value": "human resources",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Update MySN Records,need something,MySN Request</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Update MySN Records</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 06:55:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>90eea084dbd25010a860656b4b9619dc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update MySN Records</sys_name>
+        <sys_package display_value="MySN" source="x_486024_mysn">2bc78040db525010a860656b4b961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySN">2bc78040db525010a860656b4b961902</sys_scope>
+        <sys_update_name>sys_cb_topic_90eea084dbd25010a860656b4b9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 07:03:33</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=90eea084dbd25010a860656b4b9619dc"/>
+</record_update>
